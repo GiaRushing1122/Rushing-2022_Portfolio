@@ -20,6 +20,13 @@ body {
   text-decoration: none;
   color: whitesmoke;
 }
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
 img {
   width: 1240px;
   height: 499px;
