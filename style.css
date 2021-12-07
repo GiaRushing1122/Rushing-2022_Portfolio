@@ -3,7 +3,23 @@ body {
   padding: 0;
 }
 
-.box-area {
+header {
+  width: auto;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: purple;
+  border-width: 5px;
+}
+
+.banner {
+  width: auto;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: yellowgreen;
+  border-width: 5px;
+}
+
+.content-area {
   width: auto;
   margin: 0 auto;
   border-style: solid;
@@ -12,9 +28,9 @@ body {
 }
 
 .nav-head {
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
-  z-index: 12;
+  /* z-index: 12; */
   position: fixed;
 }
 
@@ -23,12 +39,12 @@ body {
   color: white;
   list-style: none;
   text-align: right;
-  padding: 20px 20px 20px 20px;
-  margin-bottom: 50px;
+  /* padding: 20px 20px 20px 20px;
+  margin-bottom: 50px; */
 }
 .main-nav > li {
   display: inline-block;
-  padding: 0 25px 0 25px;
+  /* padding: 0 25px 0 25px; */
   font-size: 12px;
 }
 
@@ -51,8 +67,8 @@ img {
   float: left;
   font-size: 10px;
   font-weight: bold;
-  padding-left: 20px;
-  padding-top: 20px;
+  /* padding-left: 20px;
+  padding-top: 20px; */
 }
 
 .logo > a {
