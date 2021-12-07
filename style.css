@@ -3,12 +3,28 @@ body {
   padding: 0;
 }
 
+.wrapper {
+  width: auto;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}
+
+.nav-head {
+  height: 100px;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+
 .main-nav {
   background-color: black;
   color: white;
   list-style: none;
   text-align: right;
-  padding: 20px 0 10px 0;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 50px;
 }
 .main-nav > li {
   display: inline-block;
@@ -20,12 +36,6 @@ body {
   text-decoration: none;
   color: whitesmoke;
 }
-
-/* .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-} */
 
 img {
   width: 1240px;
@@ -52,12 +62,22 @@ img {
 
 .banner {
   width: 100%;
-  display: block;
+  height: 500px;
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+  top: 100px;
 }
 
 .banner > .banner-img {
   width: 100%;
-  display: block;
+}
+
+.content-area {
+  width: 100%;
+  position: relative;
+  top: 450px;
+  /* height: 1500px; */
 }
 
 #about {
